@@ -25,7 +25,10 @@ SECRET_KEY = 'django-insecure-u9!u*qao@e)if5(tz80ez$cmgh25q$)*f0^)9%5(ie9=w8kf8d
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['exampaper-backend.onrender.com']
+CSRF_TRUSTED_ORIGINS = [
+    'https://exampaper-backend.onrender.com'
+]
 
 
 # Application definition
